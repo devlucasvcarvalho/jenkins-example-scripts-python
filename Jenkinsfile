@@ -1,5 +1,5 @@
 pipeline {
-  agent label
+  agent label {
     docker { 
       image 'python:3.12.4-alphine3.20' 
     }
